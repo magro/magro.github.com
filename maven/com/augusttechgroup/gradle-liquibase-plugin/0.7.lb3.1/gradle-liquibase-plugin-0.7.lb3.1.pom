@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.augusttechgroup</groupId>
+  <artifactId>gradle-liquibase-plugin</artifactId>
+  <version>0.7.lb3.1</version>
+  <name>Gradle Liquibase Plugin</name>
+  <description>A Gradle plugin for the Liquibase database refactoring tool.</description>
+  <url>https://github.com/tlberglund/gradle-liquibase-plugin</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tlberglund</id>
+      <name>Tim Berglund</name>
+      <email>tlberglund@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://tlberglund@github.com/tlberglund/gradle-liquibase-plugin</connection>
+    <developerConnection>scm:git@github.com:tlberglund/gradle-liquibase-plugin.git</developerConnection>
+    <url>https://github.com/tlberglund/gradle-liquibase-plugin</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+      <version>3.0.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.augusttechgroup</groupId>
+      <artifactId>groovy-liquibase-dsl</artifactId>
+      <version>0.7.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
